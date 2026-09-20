@@ -9,7 +9,7 @@
 
 # a = int(input("enter a num: "))
 # print(bin(a))
-# # print(f"{a:b}")
+# print(f"{a:b}")
 
 # str1 ,str2,str3 = input("enter ur name: ").split()
 # print('name1: ',str1)
@@ -39,7 +39,7 @@
 
 
 # a = input("enter a num: ")
-# # print(a.zfill(5))
+# print(a.zfill(5))
 
 # quantity = 3
 # totalMoney = 450
@@ -50,7 +50,7 @@
 
 
 # amount = 1250500.7
-# print(f"{amount:,.2f}")
+# print(f"{amount:.2f}")
 
 
 # f = []

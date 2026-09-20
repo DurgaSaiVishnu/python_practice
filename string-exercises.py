@@ -98,6 +98,18 @@
 
 # def transform(str1):
 #     res = str1.swapcase()
+
+# def name(s1,s2):
+#     firstchar = s1[0]
+#     middlechar = s1[len(s1)//2]
+#     lastchar = s1[len(s1)-1]
+#     secondchar = s2[0]
+#     middle2ndchar = s2[len(s2)//2]
+#     last2ndchar = s2[len(s2)-1]
+#     res = firstchar + secondchar + middlechar + middle2ndchar + lastchar + last2ndchar
+#     print(res)
+
+# name("America","Japan")
 #     return res
 
 # print(transform("hKl"))
@@ -112,7 +124,7 @@
 #             swapped.append(word.upper())
 #     return "".join(swapped)
 
-# print(swap("hellOKK"))
+ # print(swap("hellOKK"))
 
 # def remove_spaces(str1):
 #     s = str1.replace(" ","")
@@ -263,8 +275,136 @@
 #         changedsentence.append("#")
 # print("".join(changedsentence))
 
-import string
 
-str1 = "/*Jon is @developer & musician!!"
+# import string
 
-lst = string.punctuation
+# str1 = "/*Jon is @developer & musician!!"
+
+# lst = string.punctuation
+
+# for char in lst:
+#     str1 = str1.replace(char,"#")
+
+# print(str1)
+
+# str1 = "apple"
+# dic = {}
+# for char in str1:
+#     if char in dic:
+#         dic[char] += 1
+#     else:
+#         dic[char] = 1
+# print(dic)
+
+
+# str_list = ["Emma", "Jon", "", "Kelly", None, "Eric", ""]
+# filtered_list = list(filter(None,str_list))
+# print(filtered_list)
+
+
+
+# file_name = "report_final_v2.pdf"
+
+# extension = file_name.split(".")[-1]
+
+# print("File Name:", file_name)
+# print("Extension:", extension)
+
+
+# str1 = input("enter a word: ")
+
+# if len(set(str1)) == len(str1):
+#     print("unique")
+# else:
+#     print("not unique")
+
+
+
+# str1 = "hello world from python"
+# newstr = ""
+# for word in str1.split():
+#     newstr += word[0].capitalize()+word[1:]
+
+
+# print(newstr)
+
+
+# str1 = "google"
+
+# noduplicate = []
+
+# for letter in str1:
+#     if letter not in noduplicate:
+#         noduplicate.append(letter)
+# print("".join(noduplicate))
+
+
+# str1 = "python is fun"
+# newstr = []
+# for word in str1.split():
+#     newstr.append(word)
+
+# print(" ".join(newstr[::-1]))
+
+
+
+# s1 = "ABC"
+# s2 = "xyz"
+# newword = []
+
+# for l1,l2 in zip(s1,s2):
+#     newword.append(l1)
+#     newword.append(l2)
+
+# print("".join(newword))
+
+
+# str1 = "The quick brown fox jumps over the lazy dog"
+# longest = ""
+# for word in str1.split():
+#     if len(longest)<len(word):
+#         longest = word
+
+# print(longest)
+
+
+# str1 = "Random Access Memory"
+
+# shortform = ""
+
+# for word in str1.split():
+#     shortform += word[0]
+
+# print(shortform)
+
+
+# str1 = "apple banana apple cherry banana hello hello apple"
+
+# dic = {}
+
+# for word in str1.split():
+#     if word in dic:
+#         dic[word] += 1
+#     else:
+#         dic[word] = 1
+
+
+# print(dic)
+
+
+# str1 = "swiss"
+
+# dups = {}
+
+# for letter in str1:
+#     if letter in dups:
+#         dups[letter] += 1
+#     else:
+#         dups[letter] = 1
+
+# for key in dups:
+#     if dups[key] == 1:
+#         print(key)
+#         break
+
+
