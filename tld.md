@@ -26,4 +26,4 @@ learnt about map , any fns
 learnt about string module and its fn punctuation which has a list of all puncuations
 learnt using pygame
 learnt using pathlib
-learbnt using sys and os
+learnt using sys and os

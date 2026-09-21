@@ -27,5 +27,6 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+    x+=0.1
     player(x,y)
     pygame.display.update()
