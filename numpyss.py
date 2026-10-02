@@ -154,10 +154,26 @@ import numpy as np
 
 
 
-A = np.array([[1, 2], [3, 4]])
+# A = np.array([[1, 2], [3, 4]])
 
-b = np.array([8, 18])
+# b = np.array([8, 18])
 
-# Solve for x and y
-solution = np.linalg.solve(A, b)
-print(solution)
+# # Solve for x and y
+# solution = np.linalg.solve(A, b)
+# print(solution)
+
+
+# a = np.array([1, 2, 3, 4, 5,6,7,9,53])
+# b = np.array([5, 6, 7, 8, 9])
+
+# common_elements = ~np.isin(a,b)
+# print(a[common_elements])
+
+
+# arr = np.arange(10)
+
+# random = np.random.shuffle(arr)
+# print(arr)
+
+arr = np.ones((5,5))
+arr[:]
